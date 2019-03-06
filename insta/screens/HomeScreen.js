@@ -16,7 +16,7 @@ export default class HomeScreen extends React.Component {
   static navigationOptions = {
     header: null
   };
-  dddd;
+
   render() {
     return (
       <View style={styles.container}>
@@ -25,7 +25,7 @@ export default class HomeScreen extends React.Component {
           contentContainerStyle={styles.contentContainer}
         >
           <View style={styles.welcomeContainer}>
-            <Image
+            <Imageㄱ
               source={
                 __DEV__
                   ? require("../assets/images/robot-dev.png")
